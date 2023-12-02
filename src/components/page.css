@@ -1,0 +1,104 @@
+.page-container {
+    background-color: #343535;
+    width: 60%;
+    padding: 50px;
+    border: 1px solid #00E677;
+}
+
+.page-form label {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+
+}
+
+.page-form input {
+    padding: 8px 8px;
+}
+
+*::placeholder {
+    color: #949592;
+}
+
+.page-form input:focus {
+    outline: none;
+    border: 2px solid #00E677ff;
+}
+
+
+hr {
+    width: 80%;
+    border-top: 1px solid rgb(109, 107, 107);
+    border-bottom: none;
+    margin: auto;
+}
+
+.grid-layout {
+    display: grid;
+    justify-content: center;
+    align-content: start;
+    grid-template-columns: 30% 30% 5em;
+    column-gap: 25px;
+    margin-bottom: 40px;
+    margin-top: 2rem;
+}
+
+.btn {
+    background-color: #5D5D5C;
+    color: #fff;
+    border: none;
+    padding: .8em 1.5em;
+    font-weight: 600;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: black;
+}
+
+.page-form button {
+    background-color: #00E677ff;
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+    padding: 0.5em;
+}
+
+.active-btn {
+    background-color: #00E677ff;
+}
+
+.task-list {
+    overflow: auto;
+    height: 40vh;
+    overflow-x: hidden;
+}
+
+
+.task-list::-webkit-scrollbar {
+    width: .5em;
+}
+
+.task-list::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.task-list::-webkit-scrollbar-thumb {
+    background-color: #00E677;
+    outline: 1px solid slategrey;
+}
+
+.task-list>li {
+    grid-column: 1 / 4;
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+.empty-list {
+    margin-top: 2em;
+    color: #00E677;
+    font-weight: 700;
+    font-size: 2em;
+    text-align: center;
+}

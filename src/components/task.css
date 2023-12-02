@@ -1,0 +1,50 @@
+.task-body {
+    padding: 15px 30px;
+    background-color: #404040ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 12px 0px rgba(46, 46, 46, 0.5);
+}
+
+.task-title {
+    font-size: 32px;
+    color: #00E677ff;
+    margin-bottom: 10px;
+}
+
+.task-details {
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+ion-icon {
+    width: 40px;
+    height: 40px;
+    padding: .2rem;
+}
+
+.btn-delete {
+    background-color: #404040ff;
+    border: none;
+    color: #e65555;
+    cursor: pointer;
+    padding: .2rem;
+}
+
+.btn-delete:hover {
+    outline: 1px solid #e65555;
+
+}
+
+.btn-done {
+    background-color: #404040ff;
+    border: none;
+    color: #00E677ff;
+    cursor: pointer;
+    margin-left: .1rem;
+}
+
+.btn-done:hover {
+    outline: 1px solid #00E677;
+}
