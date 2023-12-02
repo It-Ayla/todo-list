@@ -76,6 +76,7 @@ export default function Page() {
 
     return (
         < div className="page-container" >
+            <h1>My Todos</h1>
             <form className="page-form grid-layout" onSubmit={handleAdd}>
                 <label htmlFor="task-title">Title</label>
                 <label htmlFor="task-detail">Description</label>

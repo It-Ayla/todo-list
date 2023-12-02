@@ -5,6 +5,12 @@
     border: 1px solid #00E677;
 }
 
+h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 3.5em;
+}
+
 .page-form label {
     color: #FFF;
     font-size: 18px;
@@ -55,7 +61,7 @@ hr {
 }
 
 .btn:hover {
-    color: black;
+    background-color: #0bb46272;
 }
 
 .page-form button {
